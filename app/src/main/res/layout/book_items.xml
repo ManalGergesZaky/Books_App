@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/book_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBFBFB">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        app:cardBackgroundColor="#070707">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_list"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/img"
+                    android:padding="10sp"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <TextView
+                    android:id="@+id/naList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#CB55F3DF"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/auth_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#FDFDFD"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/pup_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FDFDFD"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/pupDate_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FDFDFD"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/img_Favor"
+                    android:layout_width="41dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|top"
+                    android:rotation="31"
+                    android:rotationX="23"
+                    android:rotationY="-163"
+                    app:srcCompat="@drawable/favorite" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

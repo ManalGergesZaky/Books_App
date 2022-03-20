@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book4_bl"
+    tools:context=".Ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/liv"
+        android:layout_width="61dp"
+        android:layout_height="82dp"
+        android:rotationX="-4"
+        android:rotationY="27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62"
+        app:srcCompat="@drawable/live1" />
+
+    <ImageView
+        android:id="@+id/lov"
+        android:layout_width="67dp"
+        android:layout_height="114dp"
+        android:rotationY="27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        app:srcCompat="@drawable/love1" />
+
+    <ImageView
+        android:id="@+id/spo"
+        android:layout_width="86dp"
+        android:layout_height="92dp"
+        android:rotationX="-11"
+        android:rotationY="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        app:srcCompat="@drawable/sport1" />
+
+    <ImageView
+        android:id="@+id/tim"
+        android:layout_width="107dp"
+        android:layout_height="86dp"
+        android:rotationY="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829"
+        app:srcCompat="@drawable/time1" />
+
+    <ImageView
+        android:id="@+id/img_Favoruit"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:rotationX="31"
+        android:rotationY="-8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        app:srcCompat="@drawable/book_fav" />
+</androidx.constraintlayout.widget.ConstraintLayout>
